@@ -14,7 +14,7 @@ function Players() {
     const fetchPlayers = async () => {
       setLoading(true);
       try {
-        const res = await fetch("http://localhost:5000/api/players");
+        const res = await fetch("https://scoutvault.onrender.com/api/players");
         const data = await res.json();
         setPlayers(data);
       } catch (err) {

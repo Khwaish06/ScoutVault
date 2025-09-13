@@ -39,7 +39,7 @@ function Search() {
       if (maxValue) params.append("maxValue", maxValue);
 
       const res = await fetch(
-        `http://localhost:5000/api/players?${params.toString()}`
+        `https://scoutvault.onrender.com/api/players?${params.toString()}`
       );
       const data = await res.json();
       setResults(data);
