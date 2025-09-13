@@ -1,0 +1,29 @@
+# Environment variables
+*.env
+.env.local
+.env.development
+.env.production
+
+# Dependencies
+node_modules/
+transferiq-backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+build/
+dist/
+transferiq-backend/build/
+frontend/build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# IDE
+.vscode/
+.idea/
